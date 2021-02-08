@@ -5,9 +5,9 @@ on:
 
 jobs:
   main:
-   name: Publish HTML
-    runs-on: ubuntu-18.04
-    steps:
-      - uses: actions/checkout@v2
-      - name: Output to HTML
-        uses: netwerk-digitaal-erfgoed/bikeshed-action@v1
+    name: Publish HTML
+      runs-on: ubuntu-20.04
+      steps:
+        - uses: actions/checkout@v2
+        - name: Output to HTML
+          uses: netwerk-digitaal-erfgoed/bikeshed-action@v1
