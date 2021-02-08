@@ -1,16 +1,13 @@
-name: Publish
-
+name: CI
 on:
   push:
-    branches:
-      - [main]
+    branches: [main]
 
 jobs:
-  build:
+  main:
+   name: Publish HTML
     runs-on: ubuntu-18.04
-
     steps:
       - uses: actions/checkout@v2
-
       - name: Output to HTML
         uses: netwerk-digitaal-erfgoed/bikeshed-action@v1
