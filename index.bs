@@ -10,5 +10,5 @@ Abstract: Foolin'
 
 ## Hello
 
- Hi. There.
+ Hi.
  
